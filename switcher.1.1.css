@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.checkbox_switcher,
+.checkbox_switcher * {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.checkbox_switcher {
+	float: left;
+	position: relative;
+	overflow: hidden;
+	height: 30px;
+	cursor: pointer;
+	overflow: hidden;
+	padding: 2px;
+	background-color: #f2f2f2;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: inset 1px 1px 1px 0px rgba(80, 80, 80, 0.5);
+	-moz-box-shadow: inset 1px 1px 1px 0px rgba(80, 80, 80, 0.5);
+	box-shadow: inset 1px 1px 1px 0px rgba(80, 80, 80, 0.5);
+}
+.checkbox_switcher .inline_container {
+	float: left;
+	overflow: hidden;
+	height: 26px;
+}
+.checkbox_switcher .inline_container .label {
+	float: left;
+	height: 26px;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: 300;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	padding: 0 18px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.checkbox_switcher .inline_container .middle_space {
+	float: left;
+	width: 30px;
+	height: 26px;
+}
+.checkbox_switcher input[type=checkbox] {
+	display: none;
+}
